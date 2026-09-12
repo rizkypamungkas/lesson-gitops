@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: rizkypamungkas/employee-app:d076fb6c63570ef5fb715f8f7c5d51cf2bc752bc
+        image: rizkypamungkas/employee-app:0741a02916479008e20912e638b1ef5851caa0dd
         resources:
           limits:
             memory: "128Mi"

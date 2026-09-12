@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: rizkypamungkas/tes-nginx:v1
+        image: nginx:stable-alpine-perl
         resources:
           limits:
             memory: "128Mi"

@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: nginx:stable-alpine-perl
+        image: rizkypamungkas/employee-app:d076fb6c63570ef5fb715f8f7c5d51cf2bc752bc
         resources:
           limits:
             memory: "128Mi"
